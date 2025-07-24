@@ -51,6 +51,16 @@ nav ul {
     padding: 19px 80px;
 }
 
+/* plants lovers */
+.plants-lovers-section{
+    margin: 0 auto;
+    margin-bottom: 133.88px;
+    gap: 60px;
+}
+.plants-lover-descriotion{
+    color: rgba(0, 0, 0, 0.5);
+}
+
 
 /* mobile responsive start */
 @media screen and (max-width: 576px) {
