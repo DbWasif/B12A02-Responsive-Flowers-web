@@ -1,57 +1,115 @@
 @import "tailwindcss";
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /* nav section start */
-nav{
+nav {
     margin: 0 auto;
     margin-top: 30px;
 }
-nav ul{
+
+nav ul {
     margin-left: 590px;
 }
 
 /* hero section */
-.hero-section{
+.hero-section {
     margin: 120px auto;
 }
-.banner-description{
+
+.banner-description {
     color: rgba(0, 0, 0, 0.5);
+}
+
+/* our plants section */
+.our-plants-section {
+    margin: 0 auto 210px auto;
+}
+
+.our-plants-div {
+    width: 850px;
+    margin: 0 auto;
+}
+
+.our-plants-description {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.our-plants-card {
+    margin-top: 49px;
+}
+
+.our-plants-card div img {
+    margin-bottom: 30px;
+}
+
+.our-plants-card div button {
+    margin-top: 30px;
+    padding: 19px 80px;
 }
 
 
 /* mobile responsive start */
 @media screen and (max-width: 576px) {
+
     /* nav section */
-    .mobile-device{
+    .mobile-device {
         display: none;
     }
-    nav{
+
+    nav {
         margin: 13px 16px 28px 16px;
     }
-    nav img{
+
+    nav img {
         width: 63px;
         height: 38px;
     }
 
     /* hero section */
-    .banner-container{
+    .banner-container {
         margin-left: 16px;
         margin-right: 16px;
     }
-    .hero-section{
+
+    .hero-section {
         flex-direction: column-reverse;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 24px;
     }
-    .banner-img{
+
+    .banner-img {
         margin-bottom: 28px;
     }
-    .banner-description{
+
+    .banner-description {
         margin-top: 13px;
+    }
+
+    /* our plants section */
+    .our-plants-div {
+        width: 336px;
+        margin: 0 28.5px;
+    }
+    .our-plants-card{
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 28px;
+        margin-left: 14px;
+        margin-right: 17px;
+        row-gap: 20px;
+        column-gap: 29.5px;
+    }
+    .our-plants-card div button{
+        padding: 19px 30.5px;
+        font-size: 16px;
+    }
+    .our-plants-card h3, p{
+        font-size: 16px;
     }
 
 }
