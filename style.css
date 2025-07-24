@@ -13,6 +13,15 @@ nav ul{
     margin-left: 590px;
 }
 
+/* hero section */
+.hero-section{
+    margin: 120px auto;
+}
+.banner-description{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
 /* mobile responsive start */
 @media screen and (max-width: 576px) {
     /* nav section */
@@ -25,6 +34,24 @@ nav ul{
     nav img{
         width: 63px;
         height: 38px;
+    }
+
+    /* hero section */
+    .banner-container{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+    .banner-title{
+        font-size: 24px;
+    }
+    .banner-img{
+        margin-bottom: 28px;
+    }
+    .banner-description{
+        margin-top: 13px;
     }
 
 }
