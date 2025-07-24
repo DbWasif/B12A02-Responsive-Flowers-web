@@ -1,1 +1,30 @@
 @import "tailwindcss";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav section start */
+nav{
+    margin: 0 auto;
+    margin-top: 30px;
+}
+nav ul{
+    margin-left: 590px;
+}
+
+/* mobile responsive start */
+@media screen and (max-width: 576px) {
+    /* nav section */
+    .mobile-device{
+        display: none;
+    }
+    nav{
+        margin: 13px 16px 28px 16px;
+    }
+    nav img{
+        width: 63px;
+        height: 38px;
+    }
+
+}
