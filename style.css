@@ -77,6 +77,77 @@ nav ul {
     margin-bottom: 1.25rem;
 }
 
+/* latest deal section */
+.latest-container{
+    margin: 0 auto;
+}
+.latest-deal-title {
+    text-align: center;
+}
+
+.latest-deal-title h2 {
+    margin-bottom: 16px;
+}
+
+.latest-deal-title p {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    width: 850px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.latest-img-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 25px;
+    column-gap: 28px;
+    margin: 120px 350px;
+}
+
+.promo {
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.bloom {
+    grid-column: 1;
+    grid-row: 1;
+    background-image: url('./assets/deal-bloom.png');
+    width: 367px;
+    height: 201px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ana {
+    grid-column: 1;
+    grid-row: 2;
+    background-image: url('./assets/deal-ana.png');
+    width: 367px;
+    height: 197px;
+    justify-content: center;
+    align-items: center;
+}
+
+.zabo {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    background-image: url('./assets/deal-zabo.png');
+    width: 753px;
+    height: 423.12px;
+    justify-content: center;
+    align-items: center;
+}
+
 /* join section */
 .subscribe-section {
     background-image: url(./assets/news-letter-bg.png);
@@ -115,25 +186,31 @@ nav ul {
 }
 
 /* footer section start */
-.footer-container{
+.footer-container {
     margin: 50px auto;
     max-width: 1120px;
     gap: 110.67px;
 }
-.footer-title{
+
+.footer-title {
     color: rgba(0, 0, 0, 0.5);
 }
-.footer-link{
+
+.footer-link {
     margin-bottom: 32px;
 }
-.footer-icon{
+
+.footer-icon {
     margin-top: -240px;
 }
-.footer-log{
+
+.footer-log {
     margin-top: -30px;
     margin-bottom: 17px;
     margin-left: -20px;
 }
+
+
 
 /* mobile responsive start */
 @media screen and (max-width: 576px) {
@@ -216,6 +293,7 @@ nav ul {
     .subscribe-section h1 {
         font-size: 20px;
     }
+
     .subscribe-form input {
         padding: 19px 70px 19px 15px;
     }
@@ -225,14 +303,16 @@ nav ul {
     }
 
     /* footer container */
-    .footer-container{
+    .footer-container {
         display: block;
         margin-left: 30px;
     }
-    .footer-icon{
+
+    .footer-icon {
         margin-top: 20px;
     }
-    .footer-log{
+
+    .footer-log {
         width: 180px;
         margin-bottom: 60px;
     }
