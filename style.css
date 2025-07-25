@@ -114,7 +114,26 @@ nav ul {
     background-color: #E95A08;
 }
 
-
+/* footer section start */
+.footer-container{
+    margin: 50px auto;
+    max-width: 1120px;
+    gap: 110.67px;
+}
+.footer-title{
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer-link{
+    margin-bottom: 32px;
+}
+.footer-icon{
+    margin-top: -240px;
+}
+.footer-log{
+    margin-top: -30px;
+    margin-bottom: 17px;
+    margin-left: -20px;
+}
 
 /* mobile responsive start */
 @media screen and (max-width: 576px) {
@@ -203,6 +222,19 @@ nav ul {
 
     .subscribe-form button {
         padding: 19px 10px;
+    }
+
+    /* footer container */
+    .footer-container{
+        display: block;
+        margin-left: 30px;
+    }
+    .footer-icon{
+        margin-top: 20px;
+    }
+    .footer-log{
+        width: 180px;
+        margin-bottom: 60px;
     }
 
 }
